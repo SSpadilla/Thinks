@@ -1,0 +1,44 @@
+/* Concise Modification  */
+body *{font-family: 'Raleway', sans-serif;}
+input[type="radio"],
+input[type="checkbox"],
+select{min-height: 0 !important;}
+
+select{padding: 0 !important;}
+
+/* Extends Concise's core */
+._text-justify{text-align: justify;}
+._ma{margin: auto;}
+._mlra{margin: 0 auto;}
+._w100{width: 100%;}
+
+/* Custom CSS */
+.app{
+   background: #88cafc; background: -moz-linear-gradient(to bottom,  #88cafc 0%,#e0e9ee 0%,#cdd7dd 100%); background: -webkit-linear-gradient(to bottom,  #88cafc 0%,#e0e9ee 0%,#cdd7dd 100%); background: linear-gradient(to bottom,  #88cafc 0%,#e0e9ee 0%,#cdd7dd 100%);
+   min-height: 100vh;
+}
+.button{
+   background-color: #1b98e0; 
+   width: 100%;
+   border-radius: 5px;
+}
+.button:hover{background-color: #1b98e0;opacity: 0.9;}
+.button:focus{background-color: #1b98e0;}
+
+.think__title{font-size: 3em;font-weight: normal;}
+.think__label{font-weight: bolder;}
+.think__text{border: 1px solid #1b98e0;border-radius: 5px;}
+.think__list{list-style: none;}
+.think__item{
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center;
+   border-bottom: 1px solid #Ccc;
+   height: 2.3em;
+}
+.list__title{font-size: 2em;font-weight: normal;}
+
+.delete{
+   font-weight: bold;
+   cursor: pointer;
+}
